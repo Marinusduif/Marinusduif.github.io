@@ -1,0 +1,108 @@
+section.heading {
+	height: calc(100dvh - var(--header-height));
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+section.heading > figure.img-wrapper {
+	width: 20%;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+	box-shadow: 0 0 0 5px var(--highlight-color);
+	animation: boxShadowPulseAnimation 3s infinite;
+}
+
+section.heading > figure.img-wrapper figcaption {
+	font-size: 1rem;
+	transform: translateY(-5rem);
+}
+
+section.heading > figure.img-wrapper img {
+	width: 100%;
+	height: auto;
+}
+
+section.projects #projects-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+	gap: 1rem;
+}
+
+section.projects #projects-container .project {
+	background: var(--main-bg-color);
+	border: 2px solid var(--highlight-color);
+	color: var(--text-color);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	width: 100%;
+	aspect-ratio: 4/3;
+	overflow-y: hidden;
+}
+
+section.projects #projects-container .project .img-wrapper {
+	width: 100%;
+	aspect-ratio: 16/9;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+}
+
+section.projects #projects-container .project .img-wrapper img {
+	width: 100%;
+	height: auto;
+}
+
+section.projects #projects-container .project h3 {
+	font-size: 1.5em;
+}
+
+section.projects #projects-container .project p {
+	margin: 1rem 0;
+}
+
+@keyframes boxShadowPulseAnimation {
+	0% {
+		box-shadow: 0 0 0 1px var(--highlight-color);
+	}
+
+	100% {
+		box-shadow: 0 0 0 5px var(--highlight-color);
+	}
+}
+
+@media screen and (max-width: 748px) {
+	section.heading > figure.img-wrapper {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 652px) {
+	section.about-me p {
+		max-width: max-content;
+	}
+}
+
+@media screen and (max-width: 428px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 368px) {
+	section.projects #projects-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	section.projects #projects-container .project {
+		width: 100%;
+	}
+}

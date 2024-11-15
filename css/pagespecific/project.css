@@ -1,0 +1,44 @@
+main {
+	height: calc(100dvh - var(--header-height) - var(--footer-height));
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 1.125rem;
+}
+
+main #project-images {
+	max-height: calc(100dvh - var(--header-height) - var(--footer-height));
+	overflow-y: scroll;
+}
+
+main img {
+	height: 50%;
+	max-width: 50%;
+	object-fit: contain;
+}
+
+main section {
+	height: 50%;
+	width: 50%;
+	padding: 0;
+}
+
+@media screen and (max-width: 748px) {
+	main {
+		flex-direction: column-reverse;
+		overflow: hidden;
+		align-items: flex-start;
+	}
+
+	main img {
+		height: auto;
+		width: 90%;
+		max-width: max-content;
+	}
+
+	main section {
+		height: auto;
+		width: 90%;
+	}
+}

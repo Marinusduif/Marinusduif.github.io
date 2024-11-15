@@ -1,0 +1,78 @@
+[
+	{
+		"id": 1,
+		"name": "Diorama",
+		"description": " This is my diorama project called the machine. The models I made in Blender. the Shaders used in this project is a Scroling Texture Shader and a Refraction shader. the diorama also makes use of scripts the create the movement and the pulsing lights. ",
+		"image": "/imgs/dioramaVideo-ezgif.com-video-to-gif-converter.gif",
+		"link": "https://www.google.com",
+		"images": [
+			"/imgs/dioramaVideo-ezgif.com-video-to-gif-converter.gif",
+			"/imgs/RefractionShaderGraph.webp",
+			"/imgs/scrollingShadergraph.webp",
+			"/imgs/dioramaRender.webp"
+		]
+	},
+	{
+		"id": 2,
+		"name": "Inktober Shader",
+		"description": " This is a Inktober Shader made by me. with this shader im trying to create a effect, that the scene is being printed by a very bad printer. It is a combenation of three defferent shaders. a CellShader, a Ditering shader and a edge detection shader.  ",
+		"image": "/imgs/InktoberShader.webp",
+		"link": "https://github.com/Marinusduif/KunstGameProject",
+		"images": [
+			"/imgs/edgeDectect.webp",
+			"/imgs/dither.webp",
+			"/imgs/cellshader.webp",
+			"/imgs/CellGraph.webp",
+			"/imgs/DitheringGraph.webp",
+			"/imgs/egdeDectectGraph.webp"
+		]
+	},
+
+	{
+		"id": 3,
+		"name": "Virtual Room",
+		"description": "This is a project I made in a team of 4. it is a virtual room that is made to be explored in vr. In this project i worked on the lighting in the room. and the level desing of the room. ive also made a soundscape and the skybox.",
+		"image": "imgs/villaVoltaTest2024-11-1423-13-13-ezgif.com-video-to-gif-converter.gif",
+		"link": "https://www.google.com",
+		"images": [
+			"imgs/screenshot_001.webp",
+			"imgs/screenshot_002.webp",
+			"imgs/screenshot_003.webp"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Controller Movement",
+		"description": "this is first person movement with controller seport. I made it using the unity inpute Systems",
+		"image": "imgs/ezgif.com-video-to-gif-converter.gif",
+		"link": "https://www.google.com",
+		"images": [
+			"imgs/ezgif.com-video-to-gif-converter.gi"
+			
+		]
+	},
+	{
+		"id": 5,
+		"name": "houdini modeling and distruction",
+		"description": "This is a Model a made using houdini. and after modeling it, I destroyed it by simulating a tornado inside the building.",
+		"image": "imgs/brickceptionrender01-ezgif.com-video-to-gif-converter.gif",
+		"link": "https://www.google.com",
+		"images": [
+			"imgs/brickceptionrender01-ezgif.com-video-to-gif-converter.gif",
+			"imgs/bfff30fe-7acd-45f1-8710-991274302c92-0.webp",
+			"imgs/bfff30fe-7acd-45f1-8710-991274302c92-96.webp"
+		]
+	},
+	{
+		"id": 6,
+		"name": "first person runner movement",
+		"description": "this is a first person runner I made. the player can only move 90 degrees left or right. everytime you turn the speed gets higher. the player start with a speed of 1. and the higher the speed gets the lower the speed increas becomes. if the Player falls of the map, the game pauzes and if you press space the game restarts allowing the player to try again.",
+		"image": "imgs/TheFourthColour2024-11-1422-49-16-ezgif.com-video-to-gif-converter.gif",
+		"images": [
+			"imgs/TheFourthColour2024-11-1422-49-16-ezgif.com-video-to-gif-converter.gif",
+			"http://cataas.com/cat?width=500&height=250",
+			"http://cataas.com/cat?width=400&height=200"
+		]
+	}
+
+]
