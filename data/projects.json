@@ -4,7 +4,6 @@
 		"name": "Diorama",
 		"description": " This is my diorama project called the machine. The models I made in Blender. the Shaders used in this project is a Scroling Texture Shader and a Refraction shader. the diorama also makes use of scripts the create the movement and the pulsing lights. ",
 		"image": "/imgs/dioramaVideo-ezgif.com-video-to-gif-converter.gif",
-		"link": "https://www.google.com",
 		"images": [
 			"/imgs/dioramaVideo-ezgif.com-video-to-gif-converter.gif",
 			"/imgs/RefractionShaderGraph.webp",
@@ -45,7 +44,7 @@
 		"name": "Controller Movement",
 		"description": "this is first person movement with controller seport. I made it using the unity inpute Systems",
 		"image": "imgs/ezgif.com-video-to-gif-converter.gif",
-		"link": "https://www.google.com",
+		"link": "https://github.com/JerukPurut404/Shinke/tree/Feature_movement",
 		"images": [
 			"imgs/ezgif.com-video-to-gif-converter.gi"
 			
