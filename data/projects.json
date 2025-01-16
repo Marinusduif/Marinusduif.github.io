@@ -4,6 +4,7 @@
 		"name": "Diorama",
 		"description": " This is my diorama project called the machine. The models I made in Blender. the Shaders used in this project is a Scroling Texture Shader and a Refraction shader. the diorama also makes use of scripts the create the movement and the pulsing lights. ",
 		"image": "/imgs/dioramaVideo-ezgif.com-video-to-gif-converter.gif",
+		"link": "https://www.google.com",
 		"images": [
 			"/imgs/dioramaVideo-ezgif.com-video-to-gif-converter.gif",
 			"/imgs/RefractionShaderGraph.webp",
@@ -72,6 +73,17 @@
 			"http://cataas.com/cat?width=500&height=250",
 			"http://cataas.com/cat?width=400&height=200"
 		]
+	},{
+
+		"id": 7,
+		"name": "Presure",
+		"description": "This is a art project i made about presure and stress.",
+		"image": "imgs/Screenshot 2025-01-16 194224.webp",
+		"images": [
+			"imgs/Screenshot 2025-01-16 194224.webp",
+			"imgs/Screenshot 2025-01-16 194712.webp"
+			
+		] 
 	}
 
 ]
