@@ -7,15 +7,14 @@ main {
 	padding: 2rem 1.125rem;
 }
 
-main #project-images {
-	max-height: calc(100dvh - var(--header-height) - var(--footer-height));
-	overflow-y: scroll;
-}
+/* Removed empty ruleset for main #project-images */
 
 main img {
-	height: 50%;
-	max-width: 50%;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
 	object-fit: contain;
+	/* Removed fixed height and max-width to allow images to scale naturally */
 }
 
 main section {
@@ -32,9 +31,9 @@ main section {
 	}
 
 	main img {
+		width: 100%;
 		height: auto;
-		width: 90%;
-		max-width: max-content;
+		max-width: 100%;
 	}
 
 	main section {
